@@ -1,0 +1,25 @@
+{
+    "name": "tippingcanoe/laravel-mobile-devices",
+    "description": "Model and lifecycle for adding mobile device support to your Laravel 4 application.",
+    "authors": [
+        {
+            "name": "Alexander Trauzzi",
+            "email": "a.trauzzi@tippingcanoe.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "4.*",
+        "tippingcanoe/validator": "1.*",
+        "tippingcanoe/laravel-serializer": "3.*"
+    },
+    "autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+        "psr-0": {
+            "TippingCanoe\\LaravelMobileDevices": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

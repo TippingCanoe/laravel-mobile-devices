@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+Thumbs.db
+/vendor
+.project
+.settings
+.buildpath
+tests/_data
+tests/_log
+.sass-cache
+composer.lock
